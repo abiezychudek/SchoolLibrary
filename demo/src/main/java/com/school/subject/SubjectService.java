@@ -1,5 +1,6 @@
 package com.school.subject;
 
+import com.school.Exception.SubjectException;
 import com.school.author.AuthorRepository;
 import com.school.book.Book;
 import com.school.Exception.BookException;
@@ -46,7 +47,7 @@ public class SubjectService {
     }
 
     public Subject getSubject(Long id) {
-        return subjectRepository.findById(id).orElseThrow(() -> new BookException(id));
+        return subjectRepository.findById(id).orElseThrow(() -> new SubjectException(id));
     }
 
     public Subject deleteSubject(Long id) {

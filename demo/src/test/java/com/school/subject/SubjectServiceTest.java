@@ -70,7 +70,7 @@ class MemberServiceTest {
 
         //then
         assertThatThrownBy(()->underTest.getSubject(id))
-                .hasMessage("Could not find cart with id: "+id);
+                .hasMessage("Cannot find subject with id: "+id);
     }
 
     @Test
