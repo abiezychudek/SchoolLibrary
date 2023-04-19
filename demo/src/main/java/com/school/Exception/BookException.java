@@ -1,4 +1,4 @@
-package com.school.book;
+package com.school.Exception;
 
 public class BookException extends  RuntimeException{
 

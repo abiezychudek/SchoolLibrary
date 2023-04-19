@@ -2,7 +2,7 @@ package com.school.subject;
 
 import com.school.author.AuthorRepository;
 import com.school.book.Book;
-import com.school.book.BookException;
+import com.school.Exception.BookException;
 import com.school.book.BookRepository;
 import com.school.book.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
